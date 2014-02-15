@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0;
+	background-color: green;
+}
+
+#content {
+	background-color: red;
+	float: left;
+	width: 65%;
+}
+
+#sidebar1 {
+	background-color: blue;
+	float: left;
+	width: 20%;
+}
+
+#sidebar2 {
+	background-color: purple;
+	float: left;
+	width: 15%;
+}
+
+footer {
+	background-color: orange;
+	clear: left;
+}
+
+h1, p {
+	color: white;
+}
