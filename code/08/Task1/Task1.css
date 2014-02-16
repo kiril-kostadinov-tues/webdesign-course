@@ -1,0 +1,32 @@
+a:link, a:visited {
+	display: block;
+	text-decoration: none;
+	width: 10em;
+	font-weight: bold;
+	color: white;
+	background-color: #009900;
+	text-align: center;
+	padding: 5px;
+}
+
+a:hover, a:active {
+	background-color: #006600;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#main > li {
+	float: left;
+}
+
+ul#dropdown1 > li {
+	display: none;
+}
+
+ul#main > li:hover > ul#dropdown1 > li {
+	display: block;
+}
