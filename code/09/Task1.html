@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>CATS</title>
+		<link href="Task1.css" rel="stylesheet" type = "text/css">
+	</head>
+	<body>
+		<form name="cats" method="post" autocomplete="on">
+			<fieldset>
+				<legend>Your info</legend>
+				First Name: <input type="text" name="fname" autofocus required></br>
+				Last Name: <input type="text" name="lname"></br>
+				E-mail: <input type="email" name="email" required></br>
+				Bio: <textarea rows="5" cols="50">Your bio goes here...</textarea></br>
+				Birthday: <input type="date" id="bday"></br>
+				Gender:</br>
+				<input type="radio" name="gender" value="male"> Male</br>
+				<input type="radio" name="gender" value="female"> Female</br>
+				<input type="radio" name="gender" value="cat"> Cat</br>
+			</fieldset>
+			<fieldset>
+				<legend>CAAAAAAAAAAATS</legend>
+				Do you like cats?</br>
+				<input type="radio" name="like" value="yes"> Yes</br>
+				<input type="radio" name="like" value="ofc"> YESSSSSSSSSSSS!!!</br>
+				How many cats do you have?</br>
+				<input type="number" name="numofcats" min="-1" max="999999999" value="-1"></br></br></br>
+				<input type="checkbox" name="hascat"> I like cats</br>
+				<input type="checkbox" name="spam" checked required> I would like to receive cat-related spam in my e-mail</br>
+			</fieldset>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
